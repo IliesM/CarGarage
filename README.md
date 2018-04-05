@@ -14,7 +14,7 @@ The goal is to reproduce a small/simple car garage behavior :
 * Be able to retreive previous repairs on his cars.
 * Be able to view any of his repair resume.
 
-**Workers/Mechanic**
+**Workers/Mechanics**
 * Can handle 1 task per worker.
 * Can work beside other workers.
 * Once a task is finished, tell the secretary that is done.
