@@ -1,10 +1,10 @@
-# CarGarage
+# Car Garage
 
 Contributor: Mulot Iliès
 
 ## App Context
 
-The goal is to reproduce a simple car garage behavior : 
+The goal is to reproduce a small/simple car garage behavior : 
 
 **Customer**
 * Be able to register/sign in to the site.
@@ -12,7 +12,7 @@ The goal is to reproduce a simple car garage behavior :
 * Be aware of your car's repair state.
 * Be aware of the remaining time of the repair to be done.
 
-**Workers**
+**Workers/Mechanic**
 * Can handle 1 task per worker.
 * Can work beside other workers.
 * Once a task is finished, tell the secretary that is done.
