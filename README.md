@@ -11,6 +11,8 @@ The goal is to reproduce a small/simple car garage behavior :
 * Be able to take an appointment from the site.
 * Be aware of your car's repair state.
 * Be aware of the remaining time of the repair to be done.
+* Be able to retreive previous repairs on his cars.
+* Be able to view any of his repair resume.
 
 **Workers/Mechanic**
 * Can handle 1 task per worker.
@@ -20,6 +22,7 @@ The goal is to reproduce a small/simple car garage behavior :
 * Be able to communicate at anytime with the secretary.
 * If there is nothing to do because there is no work in queue, wait.
 * The number of worker can be changed.
+* Worker name must appear in the client's repair resume.
 
 **Secretary**
 * Must put any new appointment in the workers queue.
