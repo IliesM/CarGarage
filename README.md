@@ -37,7 +37,7 @@ The goal is to reproduce a small/simple car garage behavior :
 * MultiThreading/Thread Pool
 * Asynchronous task
 * C# Sockets
-* Dependencies injection
+* Dependency injection
 
 ## Extra Packages
 * Entity Framework 6
