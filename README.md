@@ -36,6 +36,7 @@ The goal is to reproduce a small/simple car garage behavior :
 * .Net Framework 4.6.1
 * MultiThreading/Thread Pool
 * Asynchronous task
+* C# Sockets
 
 ## Extra Packages
 * Entity Framework 6
