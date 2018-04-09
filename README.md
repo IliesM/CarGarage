@@ -24,7 +24,7 @@ The goal is to reproduce a small/simple car garage behavior :
 * The number of worker can be changed.
 * Worker name must appear in the client's repair report.
 
-**Secretary**
+**Secretary/Api**
 * Must put any new appointment in the workers queue.
 * Tell the client when his car's repair is done.
 * Tell the client about his car's repair state.
