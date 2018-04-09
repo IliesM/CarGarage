@@ -31,7 +31,7 @@ The goal is to reproduce a small/simple car garage behavior :
 * Keep a trace of any operation in case of complaints.
 * Register each worker's load at the end of the day.
 
-## Involved technologies/concept
+## Technologies/Concept involved
 * EntityFramework with Code-First approach.
 * .Net Framework 4.6.1
 * MultiThreading/Thread Pool
