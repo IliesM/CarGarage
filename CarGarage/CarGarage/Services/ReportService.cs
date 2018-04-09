@@ -8,21 +8,21 @@ using System.Web;
 
 namespace CarGarage.Services
 {
-    public class AppointmentService : ICarGarageService<Appointment>
+    public class ReportService : ICarGarageService<Report>
     {
         private CarGarageDbContext _context;
 
-        AppointmentService(CarGarageDbContext context)
+        public ReportService(CarGarageDbContext context)
         {
             _context = context;
         }
 
-        public Task<Appointment> GetById()
+        public Task<Report> GetById()
         {
             throw new NotImplementedException();
         }
 
-        public Task<List<Appointment>> GettAll()
+        public Task<List<Report>> GettAll()
         {
             throw new NotImplementedException();
         }
