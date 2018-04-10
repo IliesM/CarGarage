@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace CarGarage.Services
 {
-    interface ICarGarageService<T>
+    public interface ICarGarageService<T>
     {
-        Task<T> GetById();
-        Task<List<T>> GettAll();
+        Task<T> Get();
+        Task<List<T>> GetAll();
+        Task<bool> Add();
+        Task<bool> Remove();
+        Task<bool> Update();
     }
 }

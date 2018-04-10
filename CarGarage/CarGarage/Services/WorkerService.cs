@@ -17,12 +17,27 @@ namespace CarGarage.Services
             _context = context;
         }
 
-        public Task<Worker> GetById()
+        public Task<bool> Add()
         {
             throw new NotImplementedException();
         }
 
-        public Task<List<Worker>> GettAll()
+        public Task<Worker> Get()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Worker>> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> Remove()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> Update()
         {
             throw new NotImplementedException();
         }

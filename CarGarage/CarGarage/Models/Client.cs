@@ -19,6 +19,8 @@ namespace CarGarage.Models
         [Required]
         public DateTime RegisterDate { get; set; }
 
+        public bool IsLogged { get; set; }
+
         //public virtual ICollection<Report> RelatedReports { get; set; }
     }
 }
