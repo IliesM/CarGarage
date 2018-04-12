@@ -17,12 +17,12 @@ namespace CarGarage.Services
             _context = context;
         }
 
-        public Task<bool> Add()
+        public Task<bool> Add(Report value)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Report> Get()
+        public Task<Report> Get(int id)
         {
             throw new NotImplementedException();
         }
@@ -32,12 +32,12 @@ namespace CarGarage.Services
             throw new NotImplementedException();
         }
 
-        public Task<bool> Remove()
+        public Task<bool> Remove(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> Update()
+        public Task<bool> Update(Report value)
         {
             throw new NotImplementedException();
         }

@@ -1,5 +1,6 @@
 ﻿using CarGarage.Services;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
+using CarGarage.Models;
 
 namespace CarGarage.Controllers.Client
 {
@@ -21,17 +23,20 @@ namespace CarGarage.Controllers.Client
         }*/
 
         [HttpPost]
-        [Route("Client/Register")]
-        public async Task<IHttpActionResult> Register([FromBody] string payload)
+        [Route("api/Client/Register")]
+        public async Task<IHttpActionResult> Register(Models.Client client)
         {
-            //var client = JsonConvert.DeserializeObject(payload);
-
-            /*if (client != null)
+            if (client != null)
             {
-                if (await _clientService.Add())
-                    return Ok("Sucessfully registered");
-            }*/
-            return Ok(payload);
+                if (await _clientService.Add(client))
+                {
+
+                }
+            }
+
+        
+            return Ok(client);
+           
             //return InternalServerError();
         }
     }

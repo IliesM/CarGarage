@@ -17,27 +17,34 @@ namespace CarGarage.Services
             _context = context;
         }
 
-        public Task<bool> Add()
+        public Task<bool> Add(Client value)
+        {
+            if (value != null)
+            {
+                _context.Clients.Add(value);
+
+               // return false;
+            }
+
+           // return false;
+        }
+
+        public async Task<Client> Get(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Client> Get()
+        public async Task<List<Client>> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Task<List<Client>> GetAll()
+        public async Task<bool> Remove(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> Remove()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> Update()
+        public async Task<bool> Update(Client value)
         {
             throw new NotImplementedException();
         }

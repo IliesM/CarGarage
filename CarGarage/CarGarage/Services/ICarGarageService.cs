@@ -5,10 +5,10 @@ namespace CarGarage.Services
 {
     public interface ICarGarageService<T>
     {
-        Task<T> Get();
+        Task<T> Get(int id);
         Task<List<T>> GetAll();
-        Task<bool> Add();
-        Task<bool> Remove();
-        Task<bool> Update();
+        Task<bool> Add(T value);
+        Task<bool> Remove(int id);
+        Task<bool> Update(T value);
     }
 }
