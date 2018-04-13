@@ -17,16 +17,16 @@ namespace CarGarage.Services
             _context = context;
         }
 
-        public Task<bool> Add(Client value)
+        public async Task<bool> Add(Client value)
         {
             if (value != null)
             {
                 _context.Clients.Add(value);
 
-               // return false;
+                return true;
             }
 
-           // return false;
+            return false;
         }
 
         public async Task<Client> Get(int id)

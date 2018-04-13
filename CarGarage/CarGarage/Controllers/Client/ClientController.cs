@@ -17,10 +17,10 @@ namespace CarGarage.Controllers.Client
     {
         ClientService _clientService;
 
-/*        ClientController(ClientService clientService)
+        ClientController(ClientService clientService)
         {
             _clientService = clientService;
-        }*/
+        }
 
         [HttpPost]
         [Route("api/Client/Register")]
