@@ -43,3 +43,4 @@ The goal is to reproduce a small/simple car garage behavior :
 * Entity Framework 6
 * Log4net
 * NewtonSoft Json
+* Unity
